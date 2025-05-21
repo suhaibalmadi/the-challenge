@@ -1,0 +1,228 @@
+body{
+    margin: 0px;
+}
+
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(77, 77, 181);
+    margin-bottom: 0px;
+}
+
+#logo-login{
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100px;
+    width: 60%;
+    margin: auto;
+}
+
+#logo-login img{
+    padding-top: 22px;
+    padding-left: 5px;
+    padding-right: 400px;
+    margin-right: 110px;
+    width: 200px;
+    height: 50px;
+}
+
+.button{
+    padding-top: 53px;
+    height: 20px;
+}
+
+.button button{
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(27, 70, 118);
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgb(98, 98, 180);
+}
+
+.email p{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+.email input{
+    border: 2px solid black;
+}
+
+#maincolor{
+    background-color: rgb(247, 246, 246);
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#main{
+    align-content: center;
+    height: 600px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+#text-img h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#text-img img{
+    margin-top: 20px;
+    width: 500px;
+}
+
+#text-img{
+    color: rgb(19, 0, 70);
+    margin-right: 200px;
+    width: 500px;
+}
+
+#signup{
+    width: 25%;
+}
+
+#signup h2{
+    color: rgb(19, 0, 70);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+}
+
+#signup p{
+    color: rgb(19, 0, 70);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+#signup h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+form{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#labels{
+    margin-right: 10px;
+    text-align: right;
+    width: 30%;
+}
+
+#labels label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(19, 0, 70);
+    display: block;
+}
+
+#inputs{
+    width: 65%;
+}
+
+#inputs .input{
+    height: 28px;
+    margin-bottom: 5px;
+}
+
+#inputs #terms{
+    color: black;
+    margin-top:  20px;
+}
+
+#inputs select{
+    border-radius: 10px;
+
+}
+#inputs button{
+    width: 100px;
+    height: 25px;
+    background-color: rgb(83, 199, 83);
+    color: white;
+    font-weight: bold;
+}
+
+#label1{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#label2{
+    margin-top: 17px;
+}
+
+#label3{
+    margin-top: 15px;
+}
+
+#label4{
+    margin-top: 12px;
+    line-height: 0.8;
+}
+
+#label5{
+    margin-top: 8px;
+    line-height: 0.8;
+}
+
+#label6{
+    margin-top: 9px;
+}
+
+#label7{
+    margin-top: 15px;
+}
+
+#selectsex{
+    margin-right: 80px;
+}
+
+a{
+    font-weight: bolder;
+    color: rgb(40, 156, 205);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+    gap: 40px;
+}
+
+#footer #options{
+    background-color: rgb(173, 172, 172);
+}
+
+.end{
+    width: 60%;
+}
+
+#info{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+}
+
+#nav{
+    width: 49%;
+    text-align: right;
+}
+
